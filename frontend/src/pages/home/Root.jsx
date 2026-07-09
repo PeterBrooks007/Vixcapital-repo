@@ -3,7 +3,7 @@ import HomeHeader from "./HomeHeader";
 import { Outlet, useLocation } from "react-router-dom";
 import HomeFooter from "./HomeFooter";
 import { Box } from "@mui/material";
-import HeroBackgroundImage from "../../assets/herobackgroundImage.webp"
+import HeroBackgroundImage from "../../assets/herobackgroundImage.jpg"
 import UseWindowSize from "../../hooks/UseWindowSize";
 
 

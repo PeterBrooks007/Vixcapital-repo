@@ -26,7 +26,7 @@ import {
   UserCircle,
 } from "@phosphor-icons/react";
 
-import HeroBackgroundImage from "../../assets/herobackgroundImage.webp";
+import HeroBackgroundImage from "../../assets/herobackgroundImage.jpg";
 
 const MotionBox = motion(Box);
 const MotionTypography = motion(Typography);
@@ -52,7 +52,7 @@ const Homedesktop = () => {
         backgroundSize: "cover", // Ensures the image covers the entire Box
         backgroundPosition: {
           xs: "75% ", // 100px from the left and vertically centered on small screens
-          md: "center", // Fully centered for medium screens and larger
+          md: "top center", // Fully centered for medium screens and larger
         },
         backgroundRepeat: "no-repeat", // Prevents the image from repeating
       }}
