@@ -159,7 +159,7 @@ const HomeMobile = () => {
                 borderRadius: "30px",
                 p: "15px 20px",
                 mt: 2,
-                backgroundColor: "green",
+                backgroundColor: "#5398f9",
                 color: "white",
                 fontWeight: "700",
                 fontSize: isMobile ? "18px" : "32px",

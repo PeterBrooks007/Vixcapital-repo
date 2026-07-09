@@ -283,7 +283,7 @@ const HomeHeader = () => {
               xs: "flex",
               md: "none",
               color: "white",
-              backgroundColor: "green",
+              backgroundColor: "#5398f9",
             },
           }}
         >
@@ -307,7 +307,8 @@ const HomeHeader = () => {
             component={RouterLink}
             to="/auth/register"
             variant="contained"
-            color="secondary"
+            // color="secondary"
+            sx={{bgcolor: "#5398f9"}}
           >
             Get Started
           </Button>

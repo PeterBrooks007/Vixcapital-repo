@@ -147,7 +147,7 @@ const Homedesktop = () => {
                     borderRadius: "40px",
                     fontSize: "25px",
                     p: "16px 32px",
-                    backgroundColor: "green",
+                    backgroundColor: "#5398f9",
                     color: "white",
                     fontWeight: 700,
                   }}
